@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: url(https://fonts.google.com/specimen/Red+Hat+Display);
+}
+  
+body{
+    background-image: url(images/pattern-background-desktop.svg);
+    background-repeat: no-repeat;
+    font-family: "Red Hat Display", sans-serif;
+    background-color: hsl(225, 100%, 94%);
+    background-size: contain;
+}
+section {
+   
+    background-color: white;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    
+    margin: auto;
+    width: 450px;
+    padding: 0px; 
+    margin-top: 100px;
+}
+img {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+section .box {
+    margin: auto;
+    width: 350px;
+}
+section h1 {
+    text-align: center;
+    margin: 20px ;
+}
+section p {
+    font-size: 16px;
+    text-align: center;
+    font-weight: 500;
+    color:  gray;
+}
+section .change {
+    background-color:  hsl(225, 100%, 98%);
+    margin: 10px auto;
+    padding: 15px ;
+    display: flex;
+    flex-wrap: wrap;
+    border-radius: 10px;
+}
+section .price {
+    margin: 5px;
+}
+section a{
+    margin: 15px 5px 15px 100px;
+}
+section .btn {
+    
+    margin: auto;
+    width: 300px;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+}
+section .btn1{
+    box-shadow: 0 15px 15px rgba(79, 143, 246, 0.561);
+    border-radius: 5px;
+    margin: 20px 0;
+    padding: 10px;
+    background-color:  hsl(245, 75%, 52%);
+    transition: 0.5 ease;
+}
+section .btn1:hover{
+    background-color:  hsl(224, 23%, 55%);
+}
+section .btn2 {
+    border-radius: 5px;
+    margin: 20px 0;
+    padding: 10px;
+    border: none;
+    background:none;
+}
+section .btn2:hover{
+    background-color: hsl(224, 23%, 55%);
+    
+}
+.attribution{
+    margin: 25px auto;
+}
